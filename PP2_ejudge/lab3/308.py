@@ -1,0 +1,18 @@
+class Account:
+    def __init__(self, owner, balance):
+        self.owner = owner
+        self.balance = balance
+    def deposit(self, amount):
+        self.balance += amount
+    def withdraw(self, amount):
+        if self.balance < amount:
+            return False
+        self.balance -= amount
+        return True
+B, W = map(int, input().split())
+acc = Account("user", B)
+if acc.withdraw(W):
+    print(acc.balance)
+else:
+    print("Insufficient Funds")
+
