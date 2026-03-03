@@ -39,10 +39,10 @@ print(camel)
 
 #8 Write a Python program to split a string at uppercase letters.
 s = re.split(r"[A-Z]", n)
-for i in s: print(i, end=" "):
-    s = re.findall(r'[A-Z][^A-Z]*', n)
-    for i in s: print(i, end=" ")
-    print('\n')
+for i in s: print(i, end=" ")
+# s = re.findall(r'[A-Z][^A-Z]*', n)
+# for i in s: print(i, end=" ")
+print('\n')
 
 #9 Write a Python program to insert spaces between words starting with capital letters.
 spa = re.sub(r'(?<!^)(?=[A-Z])', ' ', n)
