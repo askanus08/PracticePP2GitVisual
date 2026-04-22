@@ -4,16 +4,6 @@ import os
 import pygame
 
 
-def scale_point(point, original_size, new_size):
-    original_width, original_height = original_size
-    new_width, new_height = new_size
-    x, y = point
-
-    scaled_x = round(x * new_width / original_width)
-    scaled_y = round(y * new_height / original_height)
-    return (scaled_x, scaled_y)
-
-
 def bottom_center_pivot(size, bottom_offset=0):
     width, height = size
     return (width // 2, height - bottom_offset)
