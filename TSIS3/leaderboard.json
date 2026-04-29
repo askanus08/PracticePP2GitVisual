@@ -1,0 +1,38 @@
+[
+    {
+        "name": "aba",
+        "score": 2463,
+        "distance": 2878,
+        "coins": 32
+    },
+    {
+        "name": "aseke",
+        "score": 1779,
+        "distance": 1582,
+        "coins": 33
+    },
+    {
+        "name": "aba",
+        "score": 670,
+        "distance": 630,
+        "coins": 2
+    },
+    {
+        "name": "aseke",
+        "score": 563,
+        "distance": 463,
+        "coins": 10
+    },
+    {
+        "name": "aba",
+        "score": 443,
+        "distance": 443,
+        "coins": 0
+    },
+    {
+        "name": "aba",
+        "score": 223,
+        "distance": 223,
+        "coins": 0
+    }
+]
